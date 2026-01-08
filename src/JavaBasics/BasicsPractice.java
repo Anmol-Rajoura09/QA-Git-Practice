@@ -24,7 +24,7 @@ public class BasicsPractice {
 	            } catch (AWTException | InterruptedException e) {
 	                System.err.println("Mover thread error: " + e.getMessage());
 	            }
-	        }, "MouseMover-Thread");
+	        }, "MouseMover-Thread"); // Used for this
 
 	        mover.setDaemon(true);
 	        mover.start();
@@ -40,7 +40,7 @@ public class BasicsPractice {
 	        }
 
 	       
-	        System.out.println("Stopped.");
+	        System.out.println("Stopped."); // Used for this
 	    }
 
 	    private static void runMouseLoop() throws AWTException, InterruptedException {
@@ -81,6 +81,6 @@ public class BasicsPractice {
 	            Thread.sleep(delayMs);
 	        }
 	    }
-
+// kjhgjhghjgkjghkjhkjyiutiut876876769698789709809809877563445tygh5467890oiuytrewsdfghjkl,.mnbvcxdfgh
 
 }
